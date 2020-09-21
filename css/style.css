@@ -1,0 +1,74 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.container,
+.container-fluid {
+  padding: 0;
+}
+
+.color_1 {
+  background-color: #272a31;
+  color: #272a31;
+}
+
+.color_2 {
+  background-color: #ec5242;
+  color: #ec5242;
+}
+
+.col_3 {
+  color: #d3d3d3;
+}
+
+.col_1 {
+  color: #272a31;
+}
+
+.col_2 {
+  color: #ec5242;
+}
+
+.color_3 {
+  background-color: #d3d3d3;
+}
+
+
+.nav_1 a {
+  height: 2rem;
+  color: white;
+  font-size: 10px;
+}
+
+.anam img {
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+.donor a {
+  border: 1px solid #ec5242;
+  color: #ec5242;
+  padding: 0;
+}
+
+.title {
+  width: 12rem;
+}
+
+@media only screen and (min-width: 375px) {
+  body {
+    background: url("../Images/niger_bridge.jpeg") center center no-repeat;
+    background-size: cover;
+    height: fit-content;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background: none;
+  }
+}
