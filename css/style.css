@@ -51,7 +51,6 @@ body {
 
 .donor a {
   border: 1px solid #ec5242;
-  color: #ec5242;
   padding: 0;
 }
 
@@ -59,16 +58,171 @@ body {
   width: 12rem;
 }
 
+.text {
+  background-color: whitesmoke;
+}
+
+.coco h2,
+.date {
+  font-family: 'Cocogoose';
+  font-weight: 900;
+}
+
+.venue {
+  font-size: 12px;
+}
+
+.theta,
+.pound,
+.music {
+  font-size: 50px;
+  color: #d3d3d3;
+}
+
+.star,
+.diamond,
+.love,
+.react {
+  font-size: 80px;
+}
+  .bg_image {
+  background: url(../Images/black_bg.jpeg) center center repeat-y;
+  background-size: cover;
+  height: fit-content;
+}
+
+
+
 @media only screen and (min-width: 375px) {
-  body {
-    background: url("../Images/niger_bridge.jpeg") center center no-repeat;
+  .small_bg {
+    position: relative;
+    bottom: 55px;
+    background: url(../Images/niger_bridge.jpeg) center center no-repeat;
     background-size: cover;
-    height: fit-content;
+    height: 8rem;
+    filter: opacity(15%);
   }
+
+  header {
+    height: 4.8rem;
+    width: 100%;
+  }
+
+  .bg_2 {
+    top: -1.6rem;
+  }
+
+  .smal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .text {
+    background-color: whitesmoke;
+  }
+
+  .text p {
+    width: auto;
+    font-weight: small;
+  }
+
+  .coco {
+    position: relative;
+    padding: 0 1rem 2rem 1rem;
+
+  }
+
+  .collapse {
+    background-color: whitesmoke;
+    width: 1rem;
+  }
+
+  .theta,
+  .pound,
+  .star,
+  .react,
+  .love,
+  .diamond,
+  .music {
+    width: auto;
+  }
+
+  .theta {
+    top: -8rem;
+    left: 18rem;
+  }
+
+  .music {
+    top: -3rem;
+    left: 20rem;
+  }
+
+  .react {
+    top: -8.5rem;
+    left: 9.5rem;
+    color: #d3d3d3;
+    z-index: 10;
+  }
+
+  .pound {
+    bottom: 2.8rem;
+    /* left: 10rem; */
+    font-size: 30px;
+  }
+
+  .describe {
+    margin-top: 1rem;
+    background-color: white;
+    z-index: 1;
+  }
+
+  .star {
+    top: 6rem;
+    left: 0;
+    color: pink;
+  }
+
+  .love {
+    top: 11.2rem;
+    left: 20rem;
+    color: darkred;
+  }
+
+  .diamond {
+    top: 11.2rem;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {
-  body {
-    background: none;
+   header {
+    height: fit-content;
   }
+  .coco h2 {
+    width: 40rem;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.bg_img {
+  background: url("../Images/niger_bridge.jpeg") center center no-repeat;
+  background-size: cover;
+  height: 8rem;
+  filter: opacity(25%);
+}
+
+.bg_2 {
+  top: 6.6rem;
+}
+
+.text {
+  padding: 0;
+}
+
+.text p {
+  width: 30rem;
+}
+
 }
