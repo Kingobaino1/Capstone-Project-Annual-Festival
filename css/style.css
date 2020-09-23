@@ -101,10 +101,10 @@ body {
 .react {
   font-size: 80px;
 }
+
   .bg_image { 
     background-image: url(../Images/black_bg.jpeg);
     height: 38rem;
-  
 }
 
 .underline {
@@ -167,11 +167,68 @@ body {
   height: 3rem;
 }
 
-@media only screen and (max-width: 767px) {
+/* About Section */
+
+.about_head {
+  align-items: center;
+}
+
+.about_head h2 {
+  align-self: center;
+}
+
+.past_event {
+  background: url(../Images/past_event.jpeg) center center no-repeat;
+  background-size: cover;
+  height: 180px;
+  width: 320px;
+}
+
+.about_foot {
+  height: 7rem;
+}
+
+/* Ticket */
+
+.ticket_body {
+  border: 3px double #ec5242;
+  height: 15em;
+  margin: 0 auto;
+}
+
+.ticket_tittle {
+  width: 23.5rem;
+  height: 3rem;
+  border: 1px solid gray;
+  margin: 0 auto;
+  border-radius: 30px;
+  align-items: center;
+
+}
+
+table {
+  height: 100%;
+  border: 1px solid #ec5242;
+}
+
+table th, td {
+  border: 1px solid lightgray;
+}
+
+.book {
+  height: 3rem;
+  width: 20rem;
+  margin: 0 auto;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width: 767px) {
   .small_bg {
     position: relative;
     bottom: 55px;
-    background: url(../Images/niger_bridge.jpeg) center center no-repeat;
+    background-image: url(../Images/niger_bridge.jpeg) center center no-repeat;
     background-size: cover;
     height: 8rem;
     filter: opacity(15%);
@@ -261,7 +318,30 @@ body {
   .diamond {
     top: 11.2rem;
   }
+  /* About */
 
+  .about_us h6 {
+    width: 100%;
+    padding-left: 1rem;
+  }
+
+  .describe {
+    width: 8rem;
+  }
+
+  .sponsors {
+  height: 20rem;
+}
+
+/* Ticket */
+
+.ticket_body {
+   width: 22rem;
+}
+
+table {
+  width: 25rem;
+}
 }
 
 @media only screen and (min-width: 768px) {
@@ -350,6 +430,34 @@ body {
 
 .sponsors {
   height: 10rem;
+}
 
+/* About */
+
+.about_head h2 {
+  width: 30rem;
+}
+
+.about_us {
+  width: 45rem;
+  background-color: whitesmoke;
+  bottom: 1px solid whitesmoke;
+  z-index: 1;
+}
+
+.describe {
+  width: 35rem;
+}
+
+.anam {
+  width: 15rem;
+}
+/* Table */
+.ticket_body {
+   width: 40rem;
+}
+
+table {
+  width: 40rem;
 }
 }
