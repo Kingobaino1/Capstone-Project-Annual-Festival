@@ -11,6 +11,22 @@ body {
   padding: 0;
 }
 
+.d_flex {
+  display: flex;
+}
+
+.f_dir {
+  flex-direction: column;
+}
+
+.j_content {
+  justify-content: center;
+}
+
+.j_btw {
+  justify-content: space-between;
+}
+
 .color_1 {
   background-color: #272a31;
   color: #272a31;
@@ -85,15 +101,73 @@ body {
 .react {
   font-size: 80px;
 }
-  .bg_image {
-  background: url(../Images/black_bg.jpeg) center center repeat-y;
-  background-size: cover;
-  height: fit-content;
+  .bg_image { 
+    background-image: url(../Images/black_bg.jpeg);
+    height: 38rem;
+  
+}
+
+.underline {
+  height: 1px;
+  width: 50px;
+}
+
+.article_content {
+  height: 6rem;
+  margin-top: 1rem;
 }
 
 
+.event {
+  position: relative;
+   flex-direction: column;
+   color: #d3d3d3;
+   margin: 1rem 1rem;
+}
 
-@media only screen and (min-width: 375px) {
+.event::after {
+  content: "";
+  background-color: #d3d3d3;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 10;   
+} 
+
+.content_2 h6 {
+  text-align: center;
+}
+
+.content_1  {
+  align-items: center;
+}
+
+.icon,
+.icon_text {
+  padding: 1rem;
+}
+
+.join {
+  width: 16rem;
+  height: 5rem;
+  text-align: center;
+}
+
+.foot img {
+  width: 6rem;
+  height: 6rem;
+
+}
+
+.more {
+  width: 30rem;
+  height: 3rem;
+}
+
+@media only screen and (max-width: 767px) {
   .small_bg {
     position: relative;
     bottom: 55px;
@@ -101,7 +175,7 @@ body {
     background-size: cover;
     height: 8rem;
     filter: opacity(15%);
-  }
+  } 
 
   header {
     height: 4.8rem;
@@ -166,12 +240,6 @@ body {
     z-index: 10;
   }
 
-  .pound {
-    bottom: 2.8rem;
-    /* left: 10rem; */
-    font-size: 30px;
-  }
-
   .describe {
     margin-top: 1rem;
     background-color: white;
@@ -200,8 +268,13 @@ body {
    header {
     height: fit-content;
   }
+
+  .coco {
+    position: relative;
+    top: 0;
+  }
+
   .coco h2 {
-    width: 40rem;
     font-weight: 900;
     font-size: 45px;
 }
@@ -211,6 +284,8 @@ body {
   background-size: cover;
   height: 8rem;
   filter: opacity(25%);
+  margin-top: 15rem;
+
 }
 
 .bg_2 {
@@ -222,7 +297,37 @@ body {
 }
 
 .text p {
-  width: 30rem;
+  width: auto;
+  z-index: 1;
 }
 
+.theta {
+  top: 8rem;
+  right: 7rem;
+}
+
+.react {
+  top: -10rem;
+  right: 10rem;
+  color: #ec5242;
+}
+
+.love {
+  right: 28rem;
+  top: -7rem;
+  color: #d3d3d3;
+}
+
+.diamond {
+  top: -10rem;
+}
+.star {
+  top: 5rem;
+  color: #d3d3d3;
+}
+
+.music {
+  top: -10rem;
+  left: 10rem;
+}
 }
