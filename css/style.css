@@ -284,8 +284,6 @@ body {
   background-size: cover;
   height: 8rem;
   filter: opacity(25%);
-  margin-top: 15rem;
-
 }
 
 .bg_2 {
@@ -329,5 +327,29 @@ body {
 .music {
   top: -10rem;
   left: 10rem;
+}
+
+.article_content {
+  height: fit-content;
+}
+
+.advert {
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.article_content,
+.content_1 {
+  flex-direction: column;
+}
+
+.content_2 {
+  margin: 0 2rem 0 2rem;
+}
+
+.sponsors {
+  height: 10rem;
+
 }
 }
