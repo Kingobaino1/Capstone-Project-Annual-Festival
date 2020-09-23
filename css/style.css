@@ -224,11 +224,11 @@ table th, td {
   border-radius: 15px;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 375px) {
   .small_bg {
     position: relative;
     bottom: 55px;
-    background-image: url(../Images/niger_bridge.jpeg) center center no-repeat;
+    background: url(../Images/niger_bridge.jpeg) center center no-repeat;
     background-size: cover;
     height: 8rem;
     filter: opacity(15%);
@@ -325,22 +325,22 @@ table th, td {
     padding-left: 1rem;
   }
 
-  .describe {
-    width: 8rem;
+  .describe_2 {
+    width: 20rem;
   }
 
   .sponsors {
-  height: 20rem;
+  height: 10rem;
 }
 
 /* Ticket */
 
 .ticket_body {
-   width: 22rem;
+   width: 20rem;
 }
 
 table {
-  width: 25rem;
+  width: 20rem;
 }
 }
 
@@ -399,6 +399,7 @@ table {
 .diamond {
   top: -10rem;
 }
+
 .star {
   top: 5rem;
   color: #d3d3d3;
