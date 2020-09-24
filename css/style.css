@@ -53,7 +53,6 @@ body {
   background-color: #d3d3d3;
 }
 
-
 .nav_1 a {
   height: 2rem;
   color: white;
@@ -80,7 +79,7 @@ body {
 
 .coco h2,
 .date {
-  font-family: 'Cocogoose';
+  font-family: Cocogoose;
   font-weight: 900;
 }
 
@@ -102,9 +101,9 @@ body {
   font-size: 80px;
 }
 
-  .bg_image { 
-    background-image: url(../Images/black_bg.jpeg);
-    height: 38rem;
+.bg_image { 
+  background-image: url(../Images/black_bg.jpeg);
+  height: 38rem;
 }
 
 .underline {
@@ -117,12 +116,11 @@ body {
   margin-top: 1rem;
 }
 
-
 .event {
   position: relative;
-   flex-direction: column;
-   color: #d3d3d3;
-   margin: 1rem 1rem;
+  flex-direction: column;
+  color: #d3d3d3;
+  margin: 1rem 1rem;
 }
 
 .event::after {
@@ -135,13 +133,13 @@ body {
   right: 0;
   position: absolute;
   z-index: 10;   
-} 
+}
 
 .content_2 h6 {
   text-align: center;
 }
 
-.content_1  {
+.content_1 {
   align-items: center;
 }
 
@@ -159,7 +157,6 @@ body {
 .foot img {
   width: 6rem;
   height: 6rem;
-
 }
 
 .more {
@@ -203,7 +200,6 @@ body {
   margin: 0 auto;
   border-radius: 30px;
   align-items: center;
-
 }
 
 table {
@@ -211,7 +207,8 @@ table {
   border: 1px solid #ec5242;
 }
 
-table th, td {
+table th, 
+table td {
   border: 1px solid lightgray;
 }
 
@@ -232,7 +229,7 @@ table th, td {
     background-size: cover;
     height: 8rem;
     filter: opacity(15%);
-  } 
+  }
 
   header {
     height: 4.8rem;
@@ -256,13 +253,12 @@ table th, td {
 
   .text p {
     width: auto;
-    font-weight: small;
+    font-weight: lighter;
   }
 
   .coco {
     position: relative;
     padding: 0 1rem 2rem 1rem;
-
   }
 
   .collapse {
@@ -318,6 +314,7 @@ table th, td {
   .diamond {
     top: 11.2rem;
   }
+
   /* About */
 
   .about_us h6 {
@@ -335,18 +332,17 @@ table th, td {
 
 /* Ticket */
 
-.ticket_body {
-   width: 20rem;
+  .ticket_body {
+    width: 20rem;
 }
 
-table {
-  width: 20rem;
+  table {
+    width: 20rem;
 }
-
 }
 
 @media only screen and (min-width: 768px) {
-   header {
+  header {
     height: fit-content;
   }
 
@@ -358,108 +354,108 @@ table {
   .coco h2 {
     font-weight: 900;
     font-size: 45px;
-}
+  }
 
-.bg_img {
-  background: url("../Images/niger_bridge.jpeg") center center no-repeat;
-  background-size: cover;
-  height: 8rem;
-  filter: opacity(25%);
-}
+  .bg_img {
+    background: url("../Images/niger_bridge.jpeg") center center no-repeat;
+    background-size: cover;
+    height: 8rem;
+    filter: opacity(25%);
+  }
 
-.bg_2 {
-  top: 6.6rem;
-}
+  .bg_2 {
+    top: 6.6rem;
+  }
 
-.text {
-  padding: 0;
-}
+  .text {
+    padding: 0;
+  }
 
-.text p {
-  width: auto;
-  z-index: 1;
-}
+  .text p {
+    width: auto;
+    z-index: 1;
+  }
 
-.theta {
-  top: 8rem;
-  right: 7rem;
-}
+  .theta {
+    top: 8rem;
+    right: 7rem;
+  }
 
-.react {
-  top: -10rem;
-  right: 10rem;
-  color: #ec5242;
-}
+  .react {
+    top: -10rem;
+    right: 10rem;
+    color: #ec5242;
+  }
 
-.love {
-  right: 28rem;
-  top: -7rem;
-  color: #d3d3d3;
-}
+  .love {
+    right: 28rem;
+    top: -7rem;
+    color: #d3d3d3;
+  }
 
-.diamond {
-  top: -10rem;
-}
+  .diamond {
+    top: -10rem;
+  }
 
-.star {
-  top: 5rem;
-  color: #d3d3d3;
-}
+  .star {
+    top: 5rem;
+    color: #d3d3d3;
+  }
 
-.music {
-  top: -10rem;
-  left: 10rem;
-}
+  .music {
+    top: -10rem;
+    left: 10rem;
+  }
 
-.article_content {
-  height: fit-content;
-}
+  .article_content {
+    height: fit-content;
+  }
 
-.advert {
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 5rem;
-}
+  .advert {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+  }
 
-.article_content,
-.content_1 {
-  flex-direction: column;
-}
+  .article_content,
+  .content_1 {
+    flex-direction: column;
+  }
 
-.content_2 {
-  margin: 0 2rem 0 2rem;
-}
+  .content_2 {
+    margin: 0 2rem 0 2rem;
+  }
 
-.sponsors {
-  height: 10rem;
-}
+  .sponsors {
+    height: 10rem;
+  }
 
-/* About */
+  /* About */
 
-.about_head h2 {
-  width: 30rem;
-}
+  .about_head h2 {
+    width: 30rem;
+  }
 
-.about_us {
-  width: 45rem;
-  background-color: whitesmoke;
-  bottom: 1px solid whitesmoke;
-  z-index: 1;
-}
+  .about_us {
+    width: 45rem;
+    background-color: whitesmoke;
+    bottom: 1px solid whitesmoke;
+    z-index: 1;
+  }
 
-.describe {
-  width: 35rem;
-}
+  .describe {
+    width: 35rem;
+  }
 
-.anam {
-  width: 15rem;
-}
-/* Table */
-.ticket_body {
-   width: 40rem;
-}
+  .anam {
+    width: 15rem;
+  }
+  /* Table */
+  .ticket_body {
+     width: 40rem;
+  }
 
-table {
-  width: 40rem;
-}
-}
+  table {
+    width: 40rem;
+  }
+  }
