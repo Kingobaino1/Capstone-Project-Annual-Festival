@@ -101,7 +101,7 @@ body {
   font-size: 80px;
 }
 
-.bg_image { 
+.bg_image {
   background-image: url(../Images/black_bg.jpeg);
   height: 38rem;
 }
@@ -132,7 +132,7 @@ body {
   bottom: 0;
   right: 0;
   position: absolute;
-  z-index: 10;   
+  z-index: 10;
 }
 
 .content_2 h6 {
@@ -207,7 +207,7 @@ table {
   border: 1px solid #ec5242;
 }
 
-table th, 
+table th,
 table td {
   border: 1px solid lightgray;
 }
@@ -327,19 +327,19 @@ table td {
   }
 
   .sponsors {
-  height: 10rem;
-}
+    height: 10rem;
+  }
 
 /* Ticket */
 
   .ticket_body {
     width: 20rem;
-}
+  }
 
   table {
     width: 20rem;
-}
-}
+  }
+  }
 
 @media only screen and (min-width: 768px) {
   header {
@@ -439,7 +439,7 @@ table td {
   .about_us {
     width: 45rem;
     background-color: whitesmoke;
-    bottom: 1px solid whitesmoke;
+    bottom: 1px solid lightgray;
     z-index: 1;
   }
 
@@ -450,9 +450,11 @@ table td {
   .anam {
     width: 15rem;
   }
+
   /* Table */
+
   .ticket_body {
-     width: 40rem;
+    width: 40rem;
   }
 
   table {
