@@ -230,7 +230,7 @@ table td {
   border-radius: 15px;
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 767px) {
   .small_bg {
     position: relative;
     bottom: 55px;
