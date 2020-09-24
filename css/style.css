@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+li {
+  list-style: none;
+}
+
 .container,
 .container-fluid {
   padding: 0;
@@ -79,7 +83,7 @@ body {
 
 .coco h2,
 .date {
-  font-family: Cocogoose;
+  font-family: Cocogoose, Arial, Helvetica, sans-serif;
   font-weight: 900;
 }
 
@@ -175,10 +179,15 @@ body {
 }
 
 .past_event {
-  background: url(../Images/past_event.jpeg) center center no-repeat;
+  background: linear-gradient(to top, #ec5242 0%, rgba(190, 166, 166, 0) 100%), url(../Images/past_event.jpeg), center center no-repeat;
   background-size: cover;
   height: 180px;
   width: 320px;
+}
+
+.past_event_article {
+  padding: 3rem 1rem;
+  font-size: 18px;
 }
 
 .about_foot {
@@ -330,6 +339,15 @@ table td {
     height: 10rem;
   }
 
+  .past {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .past_event {
+    margin-top: 1rem;
+  }
+
 /* Ticket */
 
   .ticket_body {
@@ -449,6 +467,14 @@ table td {
 
   .anam {
     width: 15rem;
+  }
+
+  .past {
+    flex-direction: row;
+  }
+
+  .past_event {
+    margin: 0 0 0 1rem;
   }
 
   /* Table */
