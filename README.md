@@ -16,6 +16,7 @@ Build a website for Anambra State annual  cultural festival
 ## Live Demo
 
 [Live Demo Link](https://kingobaino1.github.io/Capstone-Project-Annual-Festival/.)
+[Video Demo Link](https://www.loom.com/share/1b8fed614f81407494f616eaa36908bf)
 
 ## Author
 
