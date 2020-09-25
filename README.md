@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 > # Capstone Project
-Building a webpage using Bootstrap
+Building a webpage for the HTML/CSS capstone project.
 
-![screenshot](./Images/capstone_project.png)
+![screenshot](./Images/screen_shot_cap.png)
 
 Build a website for Anambra State annual  cultural festival
 
@@ -15,8 +15,7 @@ Build a website for Anambra State annual  cultural festival
 
 ## Live Demo
 
-- [Live Demo Link](https://kingobaino1.github.io/Capstone-Project-Annual-Festival/.)
-- [Video Demo Link](https://www.loom.com/share/1b8fed614f81407494f616eaa36908bf)
+[Live Demo Link](https://kingobaino1.github.io/Capstone-Project-Annual-Festival/.)
 
 ## Author
 
@@ -24,7 +23,7 @@ Build a website for Anambra State annual  cultural festival
 
 - GitHub: [@githubhandle](https://github.com/Kingobaino1)
 - Twitter: [@twitterhandle](https://twitter.com/ibehkingso)
-- Linkedin: [linkedin] (https://www.linkedin.com/in/ibeh-kingsley-obinna-568596177)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ibeh-kingsley-obinna-568596177)
 
 
 
@@ -40,8 +39,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
+- Hat tip to anyone whose code was used.
+- [Cindy Shin in Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 
 ## 📝 License

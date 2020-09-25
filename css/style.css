@@ -63,9 +63,14 @@ li {
   font-size: 10px;
 }
 
+.nav-item {
+  font-size: 12px;
+}
+
 .anam img {
   height: 1.8rem;
   width: 1.8rem;
+  object-fit: fill;
 }
 
 .donor a {
@@ -84,7 +89,7 @@ li {
 .coco h2,
 .date {
   font-family: Cocogoose, Arial, Helvetica, sans-serif;
-  font-weight: 900;
+  font-weight: bolder;
 }
 
 .venue {
@@ -161,6 +166,7 @@ li {
 .foot img {
   width: 6rem;
   height: 6rem;
+  object-fit: cover;
 }
 
 .more {
@@ -197,9 +203,13 @@ li {
 /* Ticket */
 
 .ticket_body {
-  border: 3px double #ec5242;
-  height: 15em;
+  border: 10px solid transparent;
+  border-image: url(../Images/envelop2.png) 30 round;
   margin: 0 auto;
+}
+
+.second_border{
+  border: none;
 }
 
 .ticket_tittle {
@@ -230,7 +240,14 @@ table td {
   border-radius: 15px;
 }
 
-@media only screen and (min-width: 375px) {
+.part {
+  width: 80%;
+  margin: 0 auto;
+  object-fit: fill;
+}
+
+
+@media only screen and (min-width: 320px) {
   .small_bg {
     position: relative;
     bottom: 55px;
@@ -306,6 +323,7 @@ table td {
     margin-top: 1rem;
     background-color: white;
     z-index: 1;
+    font-weight: bold;
   }
 
   .star {
@@ -346,6 +364,15 @@ table td {
 
   .past_event {
     margin-top: 1rem;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .patners img {
+    width: 3rem;
+    height: 3rem;
   }
 
   /* Ticket */
@@ -475,6 +502,11 @@ table td {
 
   .past_event {
     margin: 0 0 0 1rem;
+  }
+
+  .patners img {
+    width: 8rem;
+    height: 4rem;
   }
 
   /* Table */
