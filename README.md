@@ -31,7 +31,7 @@ Build a website for Anambra State annual  cultural festival
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Kingobaino1/Capstone-Project-Annual-Festival/issues).
 
 ## Show your support
 
@@ -45,4 +45,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](MIT) licensed.
