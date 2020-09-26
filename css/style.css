@@ -243,7 +243,10 @@ table td {
 .part {
   width: 80%;
   margin: 0 auto;
-  object-fit: fill;
+}
+
+.patners img {
+  object-fit: contain;
 }
 
 @media only screen and (min-width: 320px) {
@@ -323,6 +326,7 @@ table td {
     background-color: white;
     z-index: 1;
     font-weight: bold;
+    font-size: 14px;
   }
 
   .star {
