@@ -1,0 +1,524 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.container,
+.container-fluid {
+  padding: 0;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.f_dir {
+  flex-direction: column;
+}
+
+.j_content {
+  justify-content: center;
+}
+
+.j_btw {
+  justify-content: space-between;
+}
+
+.color_1 {
+  background-color: #272a31;
+  color: #272a31;
+}
+
+.color_2 {
+  background-color: #ec5242;
+  color: #ec5242;
+}
+
+.col_3 {
+  color: #d3d3d3;
+}
+
+.col_1 {
+  color: #272a31;
+}
+
+.col_2 {
+  color: #ec5242;
+}
+
+.color_3 {
+  background-color: #d3d3d3;
+}
+
+.nav_1 a {
+  height: 2rem;
+  color: white;
+  font-size: 10px;
+}
+
+.nav-item {
+  font-size: 12px;
+}
+
+.anam img {
+  height: 1.8rem;
+  width: 1.8rem;
+  object-fit: fill;
+}
+
+.donor a {
+  border: 1px solid #ec5242;
+  padding: 0;
+}
+
+.title {
+  width: 12rem;
+}
+
+.text {
+  background-color: whitesmoke;
+}
+
+.coco h2,
+.date {
+  font-family: Cocogoose, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.venue {
+  font-size: 12px;
+}
+
+.theta,
+.pound,
+.music {
+  font-size: 50px;
+  color: #d3d3d3;
+}
+
+.star,
+.diamond,
+.love,
+.react {
+  font-size: 80px;
+}
+
+.bg_image {
+  background-image: url(../Images/black_bg.jpeg);
+  height: 38rem;
+}
+
+.underline {
+  height: 1px;
+  width: 50px;
+}
+
+.article_content {
+  height: 6rem;
+  margin-top: 1rem;
+}
+
+.event {
+  position: relative;
+  flex-direction: column;
+  color: #d3d3d3;
+  margin: 1rem 1rem;
+}
+
+.event::after {
+  content: "";
+  background-color: #d3d3d3;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 10;
+}
+
+.content_2 h6 {
+  text-align: center;
+}
+
+.content_1 {
+  align-items: center;
+}
+
+.icon,
+.icon_text {
+  padding: 1rem;
+}
+
+.join {
+  width: 16rem;
+  height: 5rem;
+  text-align: center;
+}
+
+.foot img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.more {
+  width: 30rem;
+  height: 3rem;
+}
+
+/* About Section */
+
+.about_head {
+  align-items: center;
+}
+
+.about_head h2 {
+  align-self: center;
+}
+
+.past_event {
+  background: linear-gradient(to top, #ec5242 0%, rgba(190, 166, 166, 0) 100%), url(../Images/past_event.jpeg), center center no-repeat;
+  background-size: cover;
+  height: 180px;
+  width: 320px;
+}
+
+.past_event_article {
+  padding: 3rem 1rem;
+  font-size: 18px;
+}
+
+.about_foot {
+  height: 7rem;
+}
+
+/* Ticket */
+
+.ticket_body {
+  border: 10px solid transparent;
+  border-image: url(../Images/envelop2.png) 30 round;
+  margin: 0 auto;
+}
+
+.second_border {
+  border: none;
+}
+
+.ticket_tittle {
+  width: 23.5rem;
+  height: 3rem;
+  border: 1px solid gray;
+  margin: 0 auto;
+  border-radius: 30px;
+  align-items: center;
+}
+
+table {
+  height: 100%;
+  border: 1px solid #ec5242;
+}
+
+table th,
+table td {
+  border: 1px solid lightgray;
+}
+
+.book {
+  height: 3rem;
+  width: 20rem;
+  margin: 0 auto;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.part {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.patners img {
+  object-fit: contain;
+}
+
+@media only screen and (min-width: 320px) {
+  .small_bg {
+    position: relative;
+    bottom: 55px;
+    background: url(../Images/niger_bridge.jpeg) center center no-repeat;
+    background-size: cover;
+    height: 8rem;
+    filter: opacity(15%);
+  }
+
+  header {
+    height: 4.8rem;
+    width: 100%;
+  }
+
+  .bg_2 {
+    top: -1.6rem;
+  }
+
+  .smal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .text {
+    background-color: whitesmoke;
+  }
+
+  .text p {
+    width: auto;
+    font-weight: lighter;
+  }
+
+  .coco {
+    position: relative;
+    padding: 0 1rem 2rem 1rem;
+  }
+
+  .collapse {
+    background-color: whitesmoke;
+    width: 1rem;
+  }
+
+  .theta,
+  .pound,
+  .star,
+  .react,
+  .love,
+  .diamond,
+  .music {
+    width: auto;
+  }
+
+  .theta {
+    top: -8rem;
+    left: 18rem;
+  }
+
+  .music {
+    top: -3rem;
+    left: 20rem;
+  }
+
+  .react {
+    top: -8.5rem;
+    left: 9.5rem;
+    color: #d3d3d3;
+    z-index: 10;
+  }
+
+  .describe {
+    margin-top: 1rem;
+    background-color: white;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .star {
+    top: 6rem;
+    left: 0;
+    color: pink;
+  }
+
+  .love {
+    top: 11.2rem;
+    left: 20rem;
+    color: darkred;
+  }
+
+  .diamond {
+    top: 11.2rem;
+  }
+
+  /* About */
+
+  .about_us h6 {
+    width: 100%;
+    padding-left: 1rem;
+  }
+
+  .describe_2 {
+    width: 20rem;
+  }
+
+  .sponsors {
+    height: 10rem;
+  }
+
+  .past {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .past_event {
+    margin-top: 1rem;
+  }
+
+  .title {
+    width: 100%;
+  }
+
+  .patners img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  /* Ticket */
+
+  .ticket_body {
+    width: 20rem;
+  }
+
+  table {
+    width: 20rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: fit-content;
+  }
+
+  .coco {
+    position: relative;
+    top: 0;
+  }
+
+  .coco h2 {
+    font-weight: 900;
+    font-size: 45px;
+  }
+
+  .bg_img {
+    background: url("../Images/niger_bridge.jpeg") center center no-repeat;
+    background-size: cover;
+    height: 8rem;
+    filter: opacity(25%);
+  }
+
+  .bg_2 {
+    top: 6.6rem;
+  }
+
+  .text {
+    padding: 0;
+  }
+
+  .text p {
+    width: auto;
+    z-index: 1;
+  }
+
+  .theta {
+    top: 8rem;
+    right: 7rem;
+  }
+
+  .react {
+    top: -10rem;
+    right: 10rem;
+    color: #ec5242;
+  }
+
+  .love {
+    right: 28rem;
+    top: -7rem;
+    color: #d3d3d3;
+  }
+
+  .diamond {
+    top: -10rem;
+  }
+
+  .star {
+    top: 5rem;
+    color: #d3d3d3;
+  }
+
+  .music {
+    top: -10rem;
+    left: 10rem;
+  }
+
+  .article_content {
+    height: fit-content;
+  }
+
+  .advert {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+  .article_content,
+  .content_1 {
+    flex-direction: column;
+  }
+
+  .content_2 {
+    margin: 0 2rem 0 2rem;
+  }
+
+  .sponsors {
+    height: 10rem;
+  }
+
+  /* About */
+
+  .about_head h2 {
+    width: 30rem;
+  }
+
+  .about_us {
+    width: 45rem;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    z-index: 1;
+  }
+
+  .describe {
+    width: 35rem;
+  }
+
+  .anam {
+    width: 15rem;
+  }
+
+  .past {
+    flex-direction: row;
+  }
+
+  .past_event {
+    margin: 0 0 0 1rem;
+  }
+
+  .patners img {
+    width: 8rem;
+    height: 4rem;
+  }
+
+  /* Table */
+
+  .ticket_body {
+    width: 40rem;
+  }
+
+  table {
+    width: 40rem;
+  }
+}
